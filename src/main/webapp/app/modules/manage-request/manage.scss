@@ -1,0 +1,284 @@
+.manage-requests {
+  width: 300px;
+  margin-bottom: 50px;
+  height: 39px;
+  font-family: Merriweather;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.3;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.submitted {
+  width: 140px;
+  height: 20px;
+  font-family: Source Sans Pro;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #000000;
+}
+.draft {
+  width: 85px;
+  height: 20px;
+  font-family: Source Sans Pro;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #323a45;
+}
+.request-id {
+  width: 66px;
+  height: 17px;
+  font-family: Source Sans Pro;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.31;
+  letter-spacing: normal;
+  color: #323a45;
+}
+.requested-on {
+  width: 87px;
+  height: 17px;
+  font-family: Source Sans Pro;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.31;
+  letter-spacing: normal;
+  color: #323a45;
+}
+.status-detail {
+  width: 90px;
+  height: 17px;
+  font-family: Source Sans Pro;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.31;
+  letter-spacing: normal;
+  color: #323a45;
+}
+.desc-code {
+  width: 66px;
+  height: 17px;
+  font-family: Source Sans Pro;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.31;
+  letter-spacing: normal;
+  color: #323a45;
+}
+.request-description {
+  width: 129px;
+  height: 17px;
+  font-family: Source Sans Pro;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.31;
+  letter-spacing: normal;
+  color: #323a45;
+}
+.shape {
+  width: 13px;
+  height: 13px;
+  background-color: #5b616a;
+}
+
+.col-manage-request {
+  margin-top: 10px;
+  margin-bottom: 100px;
+  margin-left: 70px;
+}
+.col-manage-buttons {
+  float: right;
+}
+.list-horizontal {
+  margin-left: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-right: 25px;
+  padding-top: 7px;
+  height: 40px;
+  border-radius: 2px;
+  background-color: #f1f1f1;
+}
+
+.list-horizontal li {
+  display: inline-block;
+}
+
+.list-horizontal li:before {
+  content: '\00a0\2022\00a0\00a0';
+}
+.list-horizontal li:first-child:before {
+  content: '';
+}
+.rectangle-legend {
+  margin-left: 20px;
+  width: 4px;
+  height: 17px;
+  background-color: #122e51;
+}
+
+.not-completed {
+  width: 84px;
+  height: 17px;
+  font-family: Source Sans Pro;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.31;
+  letter-spacing: normal;
+  color: #000000;
+}
+.cancelled {
+  width: 99px;
+  height: 17px;
+  font-family: Source Sans Pro;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.31;
+  letter-spacing: normal;
+  color: #000000;
+}
+.completed {
+  width: 63px;
+  height: 17px;
+  font-family: Source Sans Pro;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.31;
+  letter-spacing: normal;
+  color: #000000;
+}
+.super-requests {
+  width: 84px;
+  height: 17px;
+  font-family: Source Sans Pro;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.31;
+  letter-spacing: normal;
+  color: #000000;
+}
+.legend {
+  width: 46px;
+  height: 17px;
+  font-family: Source Sans Pro;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.31;
+  letter-spacing: normal;
+  color: #000000;
+}
+.oval-green {
+  width: 10px;
+  height: 10px;
+  background-color: #2e8540;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 0.25rem;
+}
+.oval-red {
+  width: 10px;
+  height: 10px;
+  background-color: #e31c3d;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 0.25rem;
+}
+.oval-yellow {
+  width: 10px;
+  height: 10px;
+  background-color: #fdb81e;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 0.25rem;
+}
+.successful {
+  width: 75px;
+  height: 26px;
+  font-family: Source Sans Pro;
+  font-size: 17px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.53;
+  letter-spacing: normal;
+  color: #000000;
+}
+.denied {
+  width: 51px;
+  height: 26px;
+  font-family: Source Sans Pro;
+  font-size: 17px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.53;
+  letter-spacing: normal;
+  color: #000000;
+}
+.dialoge-box-for-confirmation {
+  width: 317px;
+  height: 26px;
+  font-family: Source Sans Pro;
+  font-size: 17px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.53;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.input-choice  {
+  left: -999em;
+  opacity: 0;
+  position: absolute;
+}
+.confirmation-message-dialog {
+  width: 343px;
+  height: 26px;
+  font-family: Source Sans Pro;
+  font-size: 17px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.53;
+  letter-spacing: normal;
+  color: #000000;
+}
+.cancel-dialog {
+  width: 461px;
+  height: 183px;
+  border-radius: 2px;
+  background-color: #ffffff;
+}

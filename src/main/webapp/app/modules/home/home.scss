@@ -1,0 +1,32 @@
+/* ==========================================================================
+Main page styles
+========================================================================== */
+.hipster {
+  display: inline-block;
+  width: 100%;
+  height: 497px;
+  // background: url('../../../static/images/logo-jhipster-react.svg') no-repeat center top;
+  background-size: contain;
+}
+.heading {
+  width: 153px;
+  height: 25px;
+  font-family: Merriweather;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+.news-text {
+  font-family: Source Sans Pro;
+  font-size: 17px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.53;
+  letter-spacing: normal;
+  color: #000000;
+}

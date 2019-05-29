@@ -1,0 +1,9 @@
+version: '2'
+services:
+    desyappsvc-app:
+        image: desyappsvc
+        environment:
+            - _JAVA_OPTIONS=-Xmx512m -Xms256m
+            - SPRING_PROFILES_ACTIVE=prod,swagger
+        ports:
+            - 8181:8181
